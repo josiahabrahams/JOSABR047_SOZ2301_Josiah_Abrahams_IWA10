@@ -73,7 +73,7 @@ if (isEarlier) { // fixed if sratement
 console.log('New date is earlier:', isEarlier)
 console.log('ID change:', holidays[christmas].id !== copied.id )//simplified condition
 console.log('Name change:', holidays[christmas].name)// removed condition to remove boolean console.log outcome
-console.log(holidays[christmas].date)// removed condition to remove boolean console.log outcome
+console.log('Date change:',`${new Date (holidays[6].date).getDate()}/${new Date (holidays[6].date).getMonth()}/${currentYear}`)// removed condition to remove boolean console.log outcome
 }
 
 const firstHolidayTimestamp = Math.min(
